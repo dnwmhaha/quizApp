@@ -1,0 +1,9 @@
+
+1. Display multiple questions on a page 
+2. Refactor DB's
+    a) add correct answer in Questions schema 
+3. Create a result page
+    a) Use chart.js (call results in DB and render using chart.js)
+4. think about embedding the data (connect user question answer passage ) Linking DB's
+5. using show and hide button through ajax with passages 
+

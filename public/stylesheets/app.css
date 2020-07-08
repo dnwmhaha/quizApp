@@ -1,0 +1,53 @@
+
+
+ /* Added from udemy */;
+
+ #mainTitle{
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px; 
+}
+
+#landing-div {
+    margin-top: 200px;
+}
+
+#test-intro-button {
+    margin-top : 30px;
+}
+
+.passage {
+    margin-top : 10px;
+}
+
+.centerIt {
+    text-align : center;
+}
+
+.intro-div {
+    margin-top : 20px;
+}
+
+ .thumbnail img {
+    width: 100%;
+}
+
+.thumbnail {
+    padding: 0;
+    min-height: 140px;
+}
+
+.thumbnail .caption-full {
+    padding: 9px;
+}
+
+
+
+.navbar-nav > li{
+    padding-left:30px;
+    padding-right:30px;
+}
+
+/* .edit-item-form {
+    display : none;
+} */

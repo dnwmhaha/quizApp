@@ -1,0 +1,29 @@
+<%- include('partials/header') -%>
+<div class="container intro-div">
+    <ul class="list-group" id="todo-list">
+        <% let question =  questions[0]%>
+        <form action="/quiz" method="POST" id="edit-item-form">
+            <p><%= question.questionNum %>. <%=question.instruction%></p>
+            <div class="container border border-dark">
+                <p class="passage"><%= question.passage %></p>
+            </div>
+            <div class="container">
+                <br>
+                <p><%= question.question %></p>
+                <input type="radio" id="choice1" name="choices" value="answer1" required>
+                <label for="choice1"><%= question.choiceA %></label><br>
+                <input type="radio" id="choice2" name="choices" value="answer2">
+                <label for="choice2"><%= question.choiceB %></label><br>
+                <input type="radio" id="choice3" name="choices" value="answer3">
+                <label for="choice3"><%= question.choiceC %></label><br>
+                <input type="radio" id="choice4" name="choices" value="answer4">
+                <label for="choice4"><%= question.choiceD %></label><br>
+            </div>
+            <div class="container text-center">
+                <button type="submit" class="btn btn-danger" id="prev">Prev</button>
+                <button type="submit" class="btn btn-primary" id="next">Next</button>
+            </div>
+        </form>
+    </ul>
+</div>
+<%- include('partials/footer') -%>
